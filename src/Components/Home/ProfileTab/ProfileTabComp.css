@@ -1,0 +1,10 @@
+.tab-content > .active {
+  display: inline;
+}
+
+.tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
+  margin-left: 75px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0px;
+  padding-top: 20px;
+}

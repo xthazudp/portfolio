@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="footer_area p_120">
         <div className="container">
           <div className="row footer_inner">
-            <div className="col-lg-5 col-sm-6">
+            <div className="col-lg-6 col-sm-6">
               <aside className="f_widget ab_widget">
                 <div className="f_title">
                   <h3>About Me</h3>
@@ -20,12 +20,11 @@ const Footer = () => {
                   <script>document.write(new Date().getFullYear());</script> All
                   rights reserved | This template is made with{' '}
                   <i className="fa fa-heart-o" aria-hidden="true"></i> by{' '}
-                  Colorlib. Template is licensed under CC BY 3.0. -- And
-                  refactor by Sudip Shrestha in Reactjs.
+                  Colorlib. And redesign by Sudip Shrestha in Reactjs.
                 </p>
               </aside>
             </div>
-            <div className="col-lg-5 col-sm-6">
+            {/* <div className="col-lg-5 col-sm-6">
               <aside className="f_widget news_widget">
                 <div className="f_title">
                   <h3>Newsletter</h3>
@@ -55,8 +54,11 @@ const Footer = () => {
                   </form>
                 </div>
               </aside>
-            </div>
-            <div className="col-lg-2">
+            </div> */}
+            <div
+              className="col-lg-6 col-sm-6"
+              style={{ textAlignLast: 'right' }}
+            >
               <aside className="f_widget social_widget">
                 <div className="f_title">
                   <h3>Follow Me</h3>

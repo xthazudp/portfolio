@@ -1,0 +1,41 @@
+/* .tags {
+  text-align: center;
+  padding: 10px 0px;
+  background-color: rgb(53, 55, 61);
+} */
+
+.tag {
+  outline: none;
+  border: none;
+  color: #eee;
+  margin: 0px 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
+/* .container_tags {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+} */
+
+/* .image-card_tag {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+} */
+
+/* .image_tag {
+  width: 100%;
+}
+
+.link {
+  color: #eee;
+} */

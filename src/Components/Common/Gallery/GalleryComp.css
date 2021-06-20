@@ -1,0 +1,13 @@
+.tag {
+  outline: none;
+  border: none;
+  color: #eee;
+  margin: 0px 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
